@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.Activity.SettingActivity">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/header"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/img_btn_back"
+                android:src="@drawable/icon_arrow_back_2"
+                android:background="@android:color/transparent"
+                android:padding="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Thiết lập ta khoản"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:src="@drawable/icon_message_red"
+                android:background="@android:color/transparent"
+                android:padding="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:background="#D1D1D1"
+
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Tài khoản"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="2sp"
+                android:text="Tài khoản &amp; bảo mật"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/icon_arrow_right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="2sp"
+                android:text="Địa chỉ"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/icon_arrow_right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="2sp"
+                android:text="Thẻ ngân hàng"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/icon_arrow_right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Cài đặt"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="2sp"
+                android:text="Cài đặt chat"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/icon_arrow_right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="2sp"
+                android:text="Cài đặt thông báo"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/icon_arrow_right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="2sp"
+                android:text="Cài đặt riêng tư"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/icon_arrow_right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="2sp"
+                android:text="Người dùng đã bị chặn"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/icon_arrow_right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginVertical="2sp"
+                android:text="Địa chỉ"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/icon_arrow_right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="Hỗ trợ"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
